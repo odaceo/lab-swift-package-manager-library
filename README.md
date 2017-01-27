@@ -1,4 +1,4 @@
-# Lab | Swift Package Manager | Library
+# Lab :: Swift Package Manager :: Library
 
 [![License](https://img.shields.io/github/license/odaceo/lab-swift-package-manager-library.svg)](LICENSE)
 [![Build Status](https://travis-ci.org/odaceo/lab-swift-package-manager-library.svg)](https://travis-ci.org/odaceo/lab-swift-package-manager-library)
