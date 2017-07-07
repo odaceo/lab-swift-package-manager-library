@@ -15,7 +15,5 @@ install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install ossp-uuid ; fi
 
 script:
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then swift build --configuration release ; fi
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then swift test ; fi 
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then swift build --configuration release -Xlinker -L/usr/local/lib/ ; fi
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then swift test -Xlinker -L/usr/local/lib/ ; fi
+  - swift build --configuration release
+  - swift test
